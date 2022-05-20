@@ -91,7 +91,7 @@ run().catch(console.dir);
 
 //Use 
 app.get('/', (req, res) => {
-    res.send('Running spice warehouse server')
+    res.send('Running spice warehouse servers')
 })
 
 app.listen(port, () => {
