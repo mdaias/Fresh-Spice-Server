@@ -64,7 +64,7 @@ async function run() {
             res.send(result);
         })
 
-        // update user
+        // Update user
         app.put('/product/:id', async (req, res) => {
             const id = req.params.id;
             const updatedProduct = req.body.stock;
